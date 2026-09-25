@@ -1,0 +1,43 @@
+/* Existing page styling */
+.jumbotron {
+  background-color: #8B0000; /* Dark red matching your top banner */
+  color: #ffffff;
+}
+
+.logo {
+  font-size: 200px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+  padding: 60px 0;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+
+.red-stripe-container {
+  background-color: #8B0000 !important; 
+  color: #ffffff !important;
+  text-align: center !important;
+  padding: 40px 20px !important;
+  margin-top: 40px;
+}
+
+.red-stripe-text {
+  font-size: 32px; 
+  font-weight: bold; 
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
