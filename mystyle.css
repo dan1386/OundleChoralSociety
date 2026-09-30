@@ -1,16 +1,19 @@
-/* Existing page styling */
+
 .jumbotron {
-  background-color: #8B0000; /* Dark red matching your top banner */
+  background-color: #A61C26;
   color: #ffffff;
+  margin-bottom: 0;
 }
 
+
 .logo {
-  font-size: 200px;
+  font-size: 120px;
+  color: #A61C26;
 }
+
 
 .bg-grey {
   background-color: #f6f6f6;
-  padding: 60px 0;
 }
 
 .container-fluid {
@@ -19,16 +22,16 @@
 
 
 .red-stripe-container {
-  background-color: #8B0000 !important; 
-  color: #ffffff !important;
-  text-align: center !important;
-  padding: 40px 20px !important;
-  margin-top: 40px;
+  background-color: #a61c26; 
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  clear: both;
 }
 
 .red-stripe-text {
-  font-size: 32px; 
-  font-weight: bold; 
+  font-size: 28px; 
+  font-weight: bold;
   text-transform: uppercase;
   margin: 0;
   line-height: 1.5;
@@ -39,5 +42,37 @@
     text-align: center;
     margin: 25px 0;
   }
+
+div.container-fluid h2 {
+  color: #A61C26 !important;
+  text-align: center !important;
+  font-size: 32px !important;
+  font-weight: bold !important;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
 }
+
+div.container-fluid p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  text-align: center !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  line-height: 1.6 !important;
+  max-width: 900px !important;
+  margin: 0 auto 40px auto !important;
+
+
+}
+.header-logo-right {
+  float: right;
+  max-height: 90px;  
+  width: auto;
+  margin-top: -15px;  
+}
+
+.jumbotron h1 {
+  display: inline-block;
+  font-size: 42px;
+}
+
 
